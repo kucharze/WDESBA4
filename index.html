@@ -31,13 +31,12 @@
         color: hsl(228, 45%, 44%);
       }
       body {
-        display: flex;
         flex-direction: column;
         align-items: center;
       }
     </style>
   </head>
-  <body>
+  <body class="d-flex">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -49,8 +48,10 @@
       Clipboard allows you to track and organize everything you copy. Instantly
       access your clipboard on all your devices.
     </p>
-    <button>Download for iOS</button>
-    <button>Download for Mac</button>
+    <div>
+      <button>Download for iOS</button>
+      <button>Download for Mac</button>
+    </div>
 
     <h2>Keep track of your snippets</h2>
 
@@ -59,22 +60,26 @@
       access your snippets immediately on all your devices. Our Mac and iOS apps
       will help you organize everything.
     </p>
-    <img src="images/image-computer.png" alt="" />
-    <h4>Quick Search</h4>
-    <p>
-      Easily search your snippets by content, category, web address,
-      application, and more.
-    </p>
+    <div class="d-flex">
+      <img class="com float-start" src="images/image-computer.png" alt="" />
+      <div>
+        <h4>Quick Search</h4>
+        <p>
+          Easily search your snippets by content, category, web address,
+          application, and more.
+        </p>
 
-    <h4>iCloud Sync</h4>
+        <h4>iCloud Sync</h4>
 
-    <p>Instantly saves and syncs snippets across all your devices.</p>
+        <p>Instantly saves and syncs snippets across all your devices.</p>
 
-    <h4>Complete History</h4>
+        <h4>Complete History</h4>
 
-    <p>
-      Retrieve any snippets from the first moment you started using the app.
-    </p>
+        <p>
+          Retrieve any snippets from the first moment you started using the app.
+        </p>
+      </div>
+    </div>
 
     <h2>Access Clipboard anywhere</h2>
 
@@ -82,7 +87,7 @@
       Whether you're on the go, or at your computer, you can access all your
       Clipboard snippets in a few simple clicks.
     </p>
-    <img src="images/image-devices.png" alt="" />
+    <img class="device" src="images/image-devices.png" alt="" />
     <h3>Supercharge your workflow</h3>
 
     <p>We've got the tools to boost your productivity.</p>
@@ -102,7 +107,7 @@
 
     <p>Quick preview of all snippets on your Clipboard for easy access.</p>
 
-    <div class="logos">
+    <div class="logos d-flex">
       <img src="images/logo-google.png" alt="" />
       <img src="images/logo-ibm.png" alt="" />
       <img src="images/logo-microsoft.png" alt="" />
@@ -116,8 +121,11 @@
       Available for free on the App Store. Download for Mac or iOS, sync with
       iCloud and you're ready to start adding to your clipboard.
     </p>
-    <button>Download for iOS</button>
-    <button>Download for Mac</button>
+    <div>
+      <button>Download for iOS</button>
+      <button>Download for Mac</button>
+    </div>
+
     <p>FAQs</p>
     <p>Contact Us</p>
     <p>Privacy Policy</p>
