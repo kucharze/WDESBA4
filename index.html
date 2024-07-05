@@ -155,20 +155,23 @@
           /* align-items: center; */
           background-color: rgb(246, 245, 245);
           width: 100%;
+          flex-direction: column;
         }
         .footer-image {
           height: 50px;
           /* margin-right: 40px; */
         }
         .items {
-          margin-right: 150px;
+          /* margin-right: 150px; */
+          flex-direction: column;
+          text-align: center;
         }
         .clipboard-ios {
           width: 550px;
           text-align: center;
         }
         .logos {
-          width: 70%;
+          width: 30%;
           flex-direction: column;
         }
         .logo {
@@ -290,12 +293,16 @@
       </div>
     </div>
 
-    <div class="logos d-flex justify-content-between w-100">
-      <img class="logo ms-5" src="images/logo-google.png" alt="" />
-      <img class="logo" src="images/logo-ibm.png" alt="" />
-      <img class="logo" src="images/logo-microsoft.png" alt="" />
-      <img class="logo" src="images/logo-hp.png" alt="" />
-      <img class="logo me-5" src="images/logo-vector-graphics.png" alt="" />
+    <div class="logos d-flex justify-content-around w-100">
+      <img class="logo ms-5 mb-4" src="images/logo-google.png" alt="" />
+      <img class="logo mb-4" src="images/logo-ibm.png" alt="" />
+      <img class="logo mb-4" src="images/logo-microsoft.png" alt="" />
+      <img class="logo mb-4" src="images/logo-hp.png" alt="" />
+      <img
+        class="logo me-5 mb-4"
+        src="images/logo-vector-graphics.png"
+        alt=""
+      />
     </div>
 
     <div class="clipboard-ios d-flex flex-column align-items-center mt-5 mb-3">
@@ -307,11 +314,11 @@
       </p>
     </div>
 
-    <div class="mb-5">
-      <button type="button" class="btn btn-success rounded-5 p-2 me-2">
+    <div class="btn-section mb-5">
+      <button type="button mb-3" class="btn btn-success rounded-5 p-2 me-2">
         Download for iOS
       </button>
-      <button type="button" class="btn btn-primary rounded-5 p-2">
+      <button type="button mb-3" class="btn btn-primary rounded-5 p-2">
         Download for Mac
       </button>
     </div>
