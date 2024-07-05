@@ -34,6 +34,9 @@
         flex-direction: column;
         align-items: center;
       }
+      p {
+        font-size: 15px;
+      }
       .top {
         background-image: url(images/bg-header-desktop.png);
         width: 100%;
@@ -54,7 +57,7 @@
         text-align: center;
       }
       .com {
-        height: 450px;
+        height: 500px;
         margin-left: -170px;
         margin-right: 100px;
       }
@@ -63,6 +66,10 @@
       }
       .clipboard {
         width: 600px;
+        text-align: center;
+      }
+      .option {
+        width: 300px;
         text-align: center;
       }
       .footer {
@@ -138,13 +145,13 @@
           </p>
         </div>
 
-        <div>
+        <div class="mt-5">
           <h4>iCloud Sync</h4>
 
           <p>Instantly saves and syncs snippets across all your devices.</p>
         </div>
 
-        <div>
+        <div class="mt-5">
           <h4>Complete History</h4>
 
           <p>
@@ -169,8 +176,8 @@
 
     <p>We've got the tools to boost your productivity.</p>
 
-    <div class="pic-items d-flex mt-5 mb-5">
-      <div>
+    <div class="pic-items d-flex justify-content-around mt-5 mb-5">
+      <div class="option">
         <h3>Create blacklists</h3>
 
         <p>
@@ -179,7 +186,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="option">
         <h3>Plain text snippets</h3>
 
         <p>
@@ -187,7 +194,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="option">
         <h3>Sneak preview</h3>
 
         <p>Quick preview of all snippets on your Clipboard for easy access.</p>
