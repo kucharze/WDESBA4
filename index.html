@@ -39,7 +39,7 @@
       }
       .top {
         background-image: url(images/bg-header-desktop.png);
-        width: 100%;
+        /* width: 100%; */
         height: 300px;
       }
       .logo {
@@ -89,6 +89,9 @@
         width: 550px;
         text-align: center;
       }
+      .logos {
+        width: 100%;
+      }
       .logo {
         height: 40px;
       }
@@ -106,7 +109,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <div class="top d-flex align-items-center flex-column-reverse">
+    <div class="top d-flex align-items-center flex-column-reverse w-100">
       <img class="mb-5" src="images/logo.svg" alt="" />
     </div>
 
@@ -180,7 +183,7 @@
 
     <p>We've got the tools to boost your productivity.</p>
 
-    <div class="pic-items d-flex justify-content-around mt-5 mb-5">
+    <div class="pic-items d-flex justify-content-around mt-5 mb-5 w-100">
       <div class="option">
         <img src="images/icon-blacklist.svg" alt="" />
         <h3>Create blacklists</h3>
@@ -208,7 +211,7 @@
       </div>
     </div>
 
-    <div class="logos d-flex justify-content-around">
+    <div class="logos d-flex justify-content-between w-100">
       <img class="logo" src="images/logo-google.png" alt="" />
       <img class="logo" src="images/logo-ibm.png" alt="" />
       <img class="logo" src="images/logo-microsoft.png" alt="" />
@@ -226,7 +229,7 @@
     </div>
 
     <div class="mb-5">
-      <button type="button" class="btn btn-success rounded-5">
+      <button type="button" class="btn btn-success rounded-5 p-3">
         Download for iOS
       </button>
       <button type="button" class="btn btn-primary rounded-5">
@@ -237,7 +240,7 @@
     <div class="footer d-flex justify-content-around align-items-center">
       <img class="footer-image" src="images/logo.svg" alt="" />
 
-      <div class="items d-flex justify-content-between mt-2">
+      <div class="items d-flex justify-content-between mt-4">
         <div class="clicks">
           <p>FAQs</p>
           <p>Contact Us</p>
