@@ -131,7 +131,7 @@
         }
         .com {
           height: 300px;
-          margin-left: 50px;
+          margin-left: 40px;
           margin-right: 00px;
         }
         .com-sec {
@@ -142,9 +142,19 @@
         }
         .com-text {
           width: 330px;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+        }
+        .com-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 300px;
+          text-align: center;
         }
         .device {
-          height: 300px;
+          height: 280px;
         }
 
         .clipboard {
@@ -187,9 +197,9 @@
           align-items: center;
         }
         .logo {
-          height: 60px;
-          width: 200px;
-          margin-bottom: 20px;
+          /* height: 60px; */
+          width: 150px;
+          /* margin-bottom: 150px; */
         }
         .clicks {
           display: flex;
@@ -246,7 +256,7 @@
     <div class="com-sec d-flex mt-5 mb-5">
       <img class="com float-start" src="images/image-computer.png" alt="" />
       <div class="com-text">
-        <div class="mt-4">
+        <div class="com-item mt-4">
           <h4>Quick Search</h4>
           <p>
             Easily search your snippets by content, category, web address,
@@ -254,13 +264,13 @@
           </p>
         </div>
 
-        <div class="mt-5">
+        <div class="com-item mt-5">
           <h4>iCloud Sync</h4>
 
           <p>Instantly saves and syncs snippets across all your devices.</p>
         </div>
 
-        <div class="mt-5">
+        <div class="com-item mt-5">
           <h4>Complete History</h4>
 
           <p>
@@ -313,10 +323,10 @@
     </div>
 
     <div class="logos d-flex justify-content-around w-100">
-      <img class="logo ms-5 mb-4" src="images/logo-google.png" alt="" />
-      <img class="logo mb-4" src="images/logo-ibm.png" alt="" />
-      <img class="logo mb-4" src="images/logo-microsoft.png" alt="" />
-      <img class="logo mb-4" src="images/logo-hp.png" alt="" />
+      <img class="logo ms-5 mb-5" src="images/logo-google.png" alt="" />
+      <img class="logo mb-5" src="images/logo-ibm.png" alt="" />
+      <img class="logo mb-5" src="images/logo-microsoft.png" alt="" />
+      <img class="logo mb-5" src="images/logo-hp.png" alt="" />
       <img
         class="logo me-5 mb-4"
         src="images/logo-vector-graphics.png"
@@ -334,16 +344,16 @@
     </div>
 
     <div class="btn-section mb-5">
-      <button type="button mb-3" class="btn btn-success rounded-5 p-2 me-2">
+      <button type="button" class="btn btn-success rounded-5 p-2 me-2 mb-3">
         Download for iOS
       </button>
-      <button type="button mb-3" class="btn btn-primary rounded-5 p-2">
+      <button type="button" class="btn btn-primary rounded-5 p-2 mb-3">
         Download for Mac
       </button>
     </div>
 
     <div class="footer d-flex justify-content-around align-items-center">
-      <img class="footer-image" src="images/logo.svg" alt="" />
+      <img class="footer-image mt-5" src="images/logo.svg" alt="" />
 
       <div class="items d-flex justify-content-between mt-4">
         <div class="clicks">
