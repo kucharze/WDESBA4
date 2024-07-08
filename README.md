@@ -10,8 +10,6 @@ My goal will be to get my design as close to the below picture as possible.
 
 ![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Link to Figma page
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+https://www.figma.com/design/lFqcWt4vN3ygrQZnycSJ07/Clipboard-landing-page?node-id=0-1&t=Se4DfrVjkwJ9phLV-1
